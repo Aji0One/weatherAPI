@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1 class="header">Weather Data</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 search">
+                <input id="search" type="text" placeholder="Enter the Location"/>
+                <button type="submit" id="button" onclick="getData()">Submit</button>
+
+                <div class="data-body">
+                    <h3 id="report"></h3>
+                    <p id="description"></p>
+                    <p id="humidity"></p>
+                    <p id="pressure"></p>
+
+                    <p id="date"></p>
+                    <div class="lat-lon">
+                        <span id="latitude"></span>
+                        <span id="longitude"></span>
+                    </div>
+                    <p id="address"></p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
